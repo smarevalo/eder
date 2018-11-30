@@ -1,7 +1,8 @@
 <main>
-	<div class="container row">
-		<div class="col-sm-4"></div>
-		<div class="jumbotron col-sm-7 align-center sombreado">
+	
+	<div class="row col align-self-center" >
+		<div class="col-sm-2"></div>
+		<div class="jumbotron col-sm-8 align-center sombreado">
 			<p><b><h2><?=$docente[0]->nombre;?> <?=$docente[0]->apellido;?> </h2></b></p>
 			<div class="row">
 				<div class="col-sm-12">

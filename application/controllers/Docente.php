@@ -61,9 +61,9 @@ class Docente extends CI_Controller {
 
 		//Relaciones de campos
 		
-		$crud->set_relation('persona_id','persona','apellido', 'nombre');
+		//$crud->set_relation('persona_id','persona','apellido', 'nombre');
 		//$crud->set_relation('persona_id','persona','nombre');
-		$crud->set_relation('categoria','categoria','descripcion');
+		//$crud->set_relation('categoria','categoria','descripcion');
 		
 
 		$output = $crud->render();
