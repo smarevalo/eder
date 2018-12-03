@@ -99,7 +99,7 @@
 
             <tbody>
 				<?php 
-					if(empty($aprobadaRendir)) {echo "<tr><td colspan='6'>NINGUNA</td></tr>";}
+					if(empty($regulCursar)) {echo "<tr><td colspan='6'>NINGUNA</td></tr>";}
 					else
 					{
 						foreach ($regulCursar as $row) 
@@ -125,7 +125,7 @@
 
             <tbody>
 				<?php 
-					if(empty($aprobadaRendir)) {echo "<tr><td colspan='6'>NINGUNA</td></tr>";}
+					if(empty($aprobadaCursar)) {echo "<tr><td colspan='6'>NINGUNA</td></tr>";}
 					else
 					{
 						foreach ($aprobadaCursar as $row) 
