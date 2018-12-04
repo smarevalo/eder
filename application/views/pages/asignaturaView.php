@@ -10,7 +10,7 @@
 	<div class="container tab-content card" >
 		<table class="table table-striped sombreado">
 			<tr><h3><?= $asignatura[0]->nombre; ?></h3></tr>
-			<thead class="thead-eder">
+			<thead class="thead-escuela">
 				<tr>
 					<th><a >Carrera</a></th>
 					<th><a >Programa</a></th>
@@ -55,7 +55,7 @@
 	<!-- Tabla Equipo -->
 	<div class="container tab-content card" >
 		<table class="table table-hover sombreado">
-			<thead class="thead-eder">
+			<thead class="thead-escuela">
 				<tr>
                     <th colspan="6"><h3>EQUIPO</h3></th>
                 </tr>
@@ -83,7 +83,7 @@
 	<!-- Tabla Correlatividades -->
 	<div class="container tab-content card" >
 		<table class="table table-striped sombreado">
-			<thead class="thead-eder">
+			<thead class="thead-escuela">
 				<tr>
 					<th><h3>CORRELATIVIDADES</h3></th>
 				</tr>
