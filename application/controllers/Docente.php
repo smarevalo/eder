@@ -29,6 +29,7 @@ class Docente extends CI_Controller {
 
 	public function verDocente($idDocente)
 	{
+		$this->load->helper('html');
 		$this->load->view('head');
 		$this->load->view('nav');
 		

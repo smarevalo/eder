@@ -35,8 +35,7 @@ class Asignatura_model  extends CI_Model  {
 									INNER JOIN docente d ON e.id_docente = d.id 
 									INNER JOIN persona p ON d.persona_id = p.id
 									LEFT JOIN categoria c ON d.categoria = c.id 
-									WHERE a.id = '.$idAsignatura);
-		//var_dump ($query); exit();
+									WHERE a.id = '.$idAsignatura.' ORDER BY c.id');
 		return $query->result();
 	}
 

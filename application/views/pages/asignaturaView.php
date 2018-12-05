@@ -90,7 +90,7 @@
 			</thead>
         </table>
 
-		<table class="table table-striped sombreado">
+		<!--<table class="table table-striped sombreado">
 			<thead>
 				<tr>
                     <th colspan="6"><h3>Regularizada para Cursar</h3></th>
@@ -140,7 +140,7 @@
 				  <?php }
 					} ?>
 			</tbody>
-        </table>
+        </table> -->
 
 		<table class="table table-striped sombreado">
 			<thead>

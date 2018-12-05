@@ -51,7 +51,7 @@
 								<td><?=$row->regimen;?></td>
 								<td><?php if ($row->horas_primer_cuat == 0) echo '-'; else echo $row->horas_primer_cuat?></td>
 								<td><?php if ($row->horas_segundo_cuat == 0) echo '-'; else echo $row->horas_segundo_cuat?></td>
-								<td><?=$row->horas_anuales;?></td>
+								<td><?php if ($row->horas_anuales == 0) echo '-'; else echo $row->horas_anuales?></td>
 							</tr>
 						<?php } ?>
 					</tbody>

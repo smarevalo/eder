@@ -15,7 +15,7 @@ class Docente_model  extends CI_Model  {
 
 	public function datosLista()
     {
-		$query = $this->db->query('	SELECT d.id, p.nombre, p.apellido, p.email1 
+		$query = $this->db->query('	SELECT d.id, p.nombre, p.nombre_2, p.apellido, p.email1 
 									FROM docente d
 									JOIN persona p
 									ON d.persona_id = p.id
@@ -25,7 +25,7 @@ class Docente_model  extends CI_Model  {
 	
 	public function getPerfil($idDocente)
 	{
-		$query = $this->db->query('	SELECT d.id, p.nombre, p.apellido, p.email1, p.email2, p.cuit, d.categoria ,d.descripcion, c.descripcion AS categoria
+		$query = $this->db->query('	SELECT d.id, p.nombre, p.nombre_2, p.apellido, p.email1, p.email2, p.cuit, d.categoria ,d.descripcion, c.descripcion AS categoria
 									FROM docente d
 									JOIN persona p
 									ON d.persona_id = p.id

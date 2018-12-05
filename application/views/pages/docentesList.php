@@ -25,7 +25,7 @@
 									<i class="fas fa-search-plus"></i>
 								</a>
 							</td>
-							<td><?=$row->nombre;?></td>
+							<td><?=$row->nombre.' '.$row->nombre_2;?></td>
 							<td><?=$row->apellido;?></td>
 							<td><?=$row->email1;?></td>
 						</tr>
