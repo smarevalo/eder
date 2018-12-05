@@ -14,7 +14,7 @@ class Asignatura_model  extends CI_Model  {
 	
 	public function getProgramaResumido($idAsignatura)
 	{
-		$query = $this->db->query('SELECT c.nombre AS carrera, a.nombre,p.anio,p.regimen,c.plan,p.horas_anuales  FROM asignatura a
+		$query = $this->db->query('SELECT c.nombre AS carrera, a.nombre,p.anio,p.regimen,c.plan,p.horas_anuales, p.horas_primer_cuat , p.horas_segundo_cuat   FROM asignatura a
 									INNER JOIN plan p ON a.id = p.id_asignatura
 									INNER JOIN carrera c ON c.id = p.id_carrera
 									WHERE a.id = '.$idAsignatura);

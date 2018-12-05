@@ -42,7 +42,14 @@
 						<td><?=$row->anio;?></td>
 						<td><?=$row->regimen;?></td>
 						<td><?=$row->plan;?></td>
-						<td><?=$row->horas_anuales;?></td>
+						<?php if($row->horas_anuales>0) {?>
+							<td><?=$row->horas_anuales;?></td>
+						<?php }else if($row->horas_primer_cuat>0){ ?>
+							<td><?=$row->horas_primer_cuat;?></td>
+						<?php }else { ?>
+							<td><?=$row->horas_segundo_cuat;?></td>
+						<?php } ?>
+						
 					</tr>
 				<?php } ?>
 			</tbody>
